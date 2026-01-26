@@ -53,7 +53,7 @@ print(inc_list)
 list_greater_4 = [x for x in ["Divyansh", "Rahul", "Amit", "Rohit"] if len(x) > 4]
 print(list_greater_4)
 # Create a 3×3 identity matrix using list comprehension.
-matrix = [[y for y in range(3)] for x in range(3)]
+matrix = [[1 if x == y else 0  for y in range(3)] for x in range(3)]
 print(matrix)
 # Extract digits from this string:
 # s = "a1b2c3"

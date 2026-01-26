@@ -1,3 +1,4 @@
+from collections import *
 # print("heyyy")
 # data = (1,2,3,4,5)
 # a,*b,c = data
@@ -61,6 +62,21 @@ matrix = [[j for j in range(i)] for i in range(3)]
 #         row.append(j)
 #     matrix.append(row)
 
-nums = [1,2,3,4,5,6,7,8]
-res = [x for x in nums if x%2==0 and x>4]
-print(res)
+# nums = [1,2,3,4,5,6,7,8]
+# res = [x for x in nums if x%2==0 and x>4]
+# print(res)
+
+
+lst = [1,2,2,3,3,3,4]
+c = Counter(lst)
+# print(c)
+print(c.most_common(2))
+d = defaultdict(int)
+for i in [1,1,1,2,3,4]:
+    d[i] += 1  
+print(d)
+
+print(defaultdict(int))   # default = 0
+print(defaultdict(list))  # default = []
+print(defaultdict(set))   # default = set()
+
