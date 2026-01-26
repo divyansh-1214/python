@@ -51,6 +51,8 @@
 
 The map() function is used to apply a given function to each item of an iterable (such as list, tuple, etc.) and return a map object.
 
+map() is used to apply a function to each element of an iterable and return the result.
+
 
 
 🔹 Syntax
@@ -79,7 +81,7 @@ num = list(map(lambda x:x+1,\[1,2,3,4,5]))
 
 def temp(a):
 
-&nbsp;   return True
+    return True
 
 print(list(filter(temp, list(range(1, 11)))))
 
@@ -89,7 +91,7 @@ print(list(filter(temp, list(range(1, 11)))))
 
 ###### reduce
 
-it send the first 2 value of the list to the function then that function return the value after that reduce function will use the reurned value on to the next values in the list and then return the single value 
+it send the first 2 value of the list to the function then that function return the value after that reduce function will use the reurned value on to the next values in the list and then return the single value
 
 1. reduce() reduces a sequence to a single value
 2. Requires functools module
@@ -110,7 +112,7 @@ it send the first 2 value of the list to the function then that function return 
 
 
 
-\_\_name\_\_ is the variable that cantaien the main if we run that file directly other wise it cantina the name of the module from where this script is called 
+\_\_name\_\_ is the variable that cantaien the main if we run that file directly other wise it cantina the name of the module from where this script is called
 
 
 
@@ -138,6 +140,3 @@ it send the first 2 value of the list to the function then that function return 
 6. Can take multiple arguments
 7. Commonly used with map(), filter(), reduce()
 8. Improves conciseness and readability
-
-
-
