@@ -1,0 +1,183 @@
+
+	Install Python, set up an IDE, and run a basic Python program to print "Hello, Python!" 
+	Declare variables of various data types (int, float, str, list, dict). Print their types and values. 
+	Create a list of numbers, calculate their sum, and find the maximum and minimum values. 
+	Write a program that asks for the user's name and age, then prints a message: "Hello, [name]! You are [age] years old." 
+	
+Python Core Outline (6 Days / 8 hours per day) 
+Module 1: Introduction to Python 
+• Introduction to Python 
+• Overview Python Based Applications 
+• Environment Setup 
+• Data Types 
+• Variables and its Scope 
+• Data Structure 
+• Operations on Data Structure 
+• Input and Output Operation 
+• Writing a Python Module 
+• Labs: 
+• Write a module math_utils.py with a function to calculate the factorial of a number. Import and use it in another script. 
+Module 2: Functions 
+• Define and use custom functions within a Python program. 
+• Types of function 
+• Types of Arguments. 
+• Map Function.
+• Filter Function 
+• Reduce Function 
+• Naming conventions 
+• Using Imports 
+• Documentation 
+• Executing Modules as Scripts 
+• Extended Keyword Arguments (*args, **kwargs) 
+• Lambda Functions 
+• Decorators 
+• Labs: 
+• Write a function to calculate the area of a rectangle (length × width). 
+• Use map to square each number in a list. 
+• Use filter to extract even numbers from a list. 
+• Use reduce to calculate the product of all numbers in a list. 
+• Write a function that accepts any number of arguments and returns their sum. 
+• Use a lambda function to sort a list of tuples by the second element. 
+• Write a decorator that logs the execution time of a function. 
+Module 3: Iterables and Conditional Statement 
+• Definitions 
+• Sequences 
+• Unpacking Sequences 
+• Dictionaries 
+• The len() function 
+• Sets 
+• Conditional Statements 
+• Loops in Python 
+• break and continue 
+• The enumerate() Function 
+• Generators 
+• List Comprehensions 
+• Advanced List Comprhensions 
+• Collections Module 
+• Mapping and Filtering 
+• Mutable and Immutable Buitilin Objects 
+• Sorting 
+• Unpacking Sequences in Function Calls 
+• Labs: 
+• Unpack a tuple into variables and print their values. 
+• Write a program that checks if a number is positive, negative, or zero. 
+• Write a program to print each character of a string along with its index. 
+• Generate a list of squares of even numbers between 1 and 20. 
+• Use Counter from the collections module to count occurrences of each element in a list.
+
+Module 4: Modules 
+• What are modules 
+• General Format 
+• Importing Modules 
+• Executing functions from other modules 
+• The __name__ variable 
+• Labs: 
+• Write a script that uses the math module to calculate the square root of a number. 
+• Create a module string_utils.py with functions to reverse a string and check for palindromes. 
+• Write a script that behaves differently when run directly versus imported as a module. 
+Module 5: Python Strings 
+• Quotation Marks and Special Characters 
+• String Indexing 
+• Slicing Strings 
+• Concatenation and Repetition 
+• Common String Methods 
+• String Formatting 
+• Namespaces 
+• Formatted String Literals (f-strings and .format() method) 
+• Built-in String Functions 
+• Labs: 
+• Extract the first, middle, and last characters of a string. 
+• Write a program to count the number of vowels in a given string. 
+• Write a program that formats a message: "Name: [name], Age: [age], Country: [country]". 
+• Write a program to convert a string to uppercase and check if it is a valid identifier. 
+Module 6: Python Dates and Times 
+• Understanding Time 
+• The Time Module 
+• The datetime Module 
+• Labs: 
+• Write a program to print the current date and time using the datetime module. 
+• Use the time module to measure the execution time of a simple loop. 
+• Calculate the difference between two dates in days using the datetime module. 
+Module 7: Math 
+• Arithmetic Operators 
+• Assignment Operators 
+• Built-in Math Functions 
+• The math Module 
+• The random Module 5 www.cloudthat.com +91-888-000-2200 #610, 2nd Floor, 80 Feet Road, 6th Block, Koramangala Bengaluru – 560095. 
+
+• Lab: 
+• Write a program to perform arithmetic operations (+, -, *, /) on two numbers. 
+• Use math.sqrt() to calculate the square root of a given number. 
+• Use the random module to generate a random integer between 1 and 100. 
+Module 8: File Processing 
+• Opening Files 
+• The os and os.path modules 
+• Reading files 
+• Writing into a file 
+• Appending data into a file 
+• Lab: 
+• Write a program to read and print the contents of a text file. 
+• Write a program to append a new line of text to an existing file. 
+• Use the os module to check if a file exists in a given directory. 
+Module 9: Exception Handling 
+• Except Clauses 
+• The else clause 
+• The finally clause 
+• Using Exceptions For Flow Control 
+• Raising your own exceptions 
+• Exception Hierarchy 
+• Lab: 
+• Write a program that handles division by zero with a custom error message. 
+• Use try, except, and finally clauses to handle file opening errors gracefully. 
+• Raise a custom exception if a user enters a negative number. 
+Module 10: OOPS in Python 
+• Introduction to Object-Oriented Python 
+• Creating Classes, Methods, and Objects 
+• Using Constructor and Attributes 
+• Using Class Attributes and Static Methods 
+• Understanding Object Encapsulation 
+• Private Attributes and Methods 
+• Controlling Attribute Access 
+• Creating and Accessing Properties 
+• Labs: 
+• Define a class Circle with attributes radius and methods to calculate the area and circumference. 
+• Write a program to demonstrate the concept of private attributes in a class. 
+• Create a class Employee with class attributes and methods to calculate the yearly salary from monthly salary.
+
+
+
+
+Advance Python
+
+
+1: Introduction to Python (Basic)
+•	Python Basics: Syntax, variables, data types, operators.
+•	Control Flow: Loops, conditionals, functions.
+•	Data Structures: Lists, dictionaries, sets, tuples.
+
+2: Python Advanced Basics
+•	Object-Oriented Programming (OOP) basics: Classes, objects, inheritance.
+•	Exception handling and file I/O.
+•	Introduction to Python libraries: NumPy, Pandas (optional).
+
+3: Introduction to Web Frameworks
+•	Overview of web frameworks, Django, and CherryPy.
+•	Introduction to Django: Setup, structure, and CRUD operations.
+•	Hands-on: Build a basic Django app.
+
+4: Deep Dive into Django
+•	Advanced Django: ORM, authentication, middleware.
+•	Views, templates, and routing in Django.
+•	Hands-on: Build a complete CRUD app with Django.
+
+5: Introduction to CherryPy
+•	Overview of CherryPy: Setup, routing, and HTTP handlers.
+•	Advanced CherryPy: Sessions, error handling, and tools.
+•	Hands-on: Build a simple CherryPy app.
+
+6: Final Project and Review (Optional)
+•	Compare Django and CherryPy for real-world applications.
+•	Final Project: Build a web app using Django or CherryPy.
+•	Review, presentations, and Q&A.
+
+
