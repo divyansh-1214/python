@@ -15,7 +15,7 @@ odd_lsit = [x for x in [1, 2, 3, 4, 5] if x%2 != 0]
 print(odd_lsit)
 # Convert this list into a list of strings:
 # lst = [1, 2, 3, 4]
-string_list = [str(x) for x in [1,2,3,4] ]
+string_list = [str(x) for x in [1,2,3,4]]
 print(string_list)
 # nums = [2, 5, 8, 11, 14, 17]
 # Create a list of numbers greater than 10.
