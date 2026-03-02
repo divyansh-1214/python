@@ -12,7 +12,7 @@ Module 1: Introduction to Python
 
 • Data Structure
 
-• Operations on Data Structure
+•
 
 • Input and Output Operation
 
@@ -143,3 +143,54 @@ Example: (1, 2, 3)
 * Stores data in key–value pairs
 * Keys must be unique
 * Example: {"name": "Divyansh", "age": 20}
+
+
+
+
+
+#### How Data Is Stored in Memory in Python
+
+
+
+When we create data in Python, it is stored in computer memory (RAM) in a structured way. Python manages memory automatically using its internal memory manager.
+
+
+
+* Variables Are References, Not Containers
+
+A variable does not store data directly; it stores a reference (address) to an object in memory.
+
+* Objects in Heap Memory
+
+All Python data (int, float, list, string, etc.) is stored as objects in heap memory.
+
+* Stack Memory Usage
+
+Function calls and local variable references are stored in stack memory, pointing to objects in the heap.
+
+* Object Structure
+
+Every object contains:
+
+1. Type information
+2. Value
+3. Reference count (for memory management)
+
+* Immutable vs Mutable Objects
+
+Immutable (int, float, str, tuple): new memory is created on modification.
+
+Mutable (list, dict, set): same memory is modified.
+
+* Reference Counting \& Garbage Collection
+
+Python deletes objects automatically when their reference count becomes zero.
+
+* Memory Optimization (Interning \& Caching)
+
+Python reuses memory for small integers and strings to improve performance.
+
+
+
+
+
