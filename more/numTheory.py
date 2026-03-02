@@ -36,12 +36,45 @@ def call_facor(num):
     print("The factors of the number are: ", factors)
 
 
+def call_prime(num):
+    for i in range(2, int(math.sqrt(num)) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+
+def call_prime_factors(num):
+    prime_factors = []
+    n = 2
+    while num != 1:
+        if num % n == 0:
+            num = num // n
+            if call_prime(n):
+                prime_factors.append(n)
+        else:
+            n = n + 1
+    print(prime_factors)
+
+
+def call_prime_range(num):
+    numbers = list(range(2, num))
+    for i in range(2, int(math.sqrt(num)) + 1):
+        for j in range(2, (num // 2)):
+            if (i * j) in numbers:
+                numbers.remove(i * j)
+    return numbers
+
+
 def main():
     # num1 = int(input("Enter the first number: "))
     # num2 = int(input("Enter the second number: "))
     # call_lcm(num1, num2)
     # call_gcd(num1, num2)
     # call_facor(10)
+    # call_prime_factors(30)
+    # print(call_prime(10))
+    # 2, 3, 5, 7, 11, 13, 17, 19
+    print(call_prime_range(100))
 
 
 if __name__ == "__main__":
